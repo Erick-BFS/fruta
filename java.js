@@ -1,6 +1,8 @@
 let Fruta = "";
 
-switch(Fruta) {
+Fruta = prompt('Qual fruta você deseja')
+
+switch(Fruta.toLowerCase()) {
     case "maçã":
         alert("Não vendemos esta fruta aqui")
         break;
@@ -14,6 +16,6 @@ switch(Fruta) {
         break;
     
     default:
-        alert("Closed")
+        alert("fruta não encontrada!")
         break;
 }
